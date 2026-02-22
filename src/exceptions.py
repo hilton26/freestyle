@@ -2,6 +2,7 @@ x = 0
 try:
     # print(x / 0)
     if not isinstance(x, str):
+        # raising an error manually
         raise TypeError("'x' must be a string")
 except NameError as e:
     # print("Variable 'x' is not defined")
@@ -15,4 +16,4 @@ except Exception as e:
 else:
     print("Division successful")
 finally:
-    print("The 'finally' block always executes")
+    print("The 'finally' block always executes ea qarw ergtrg asf wetwerw sdfsdf werwer")
